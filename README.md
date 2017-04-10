@@ -6,23 +6,22 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## app.module.ts
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+Add the following imports to your app.module.ts
 
-## Build
+<p>import { NgBoxModule } from './ngbox/ngbox.module';</p>
+<p>import { NgBoxService } from './ngbox/ngbox.service';</p>
+<p>import { AppComponent } from './app.component';</p>
+<p>import { CommonModule } from '@angular/common';</p>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Add these to the import `NgBoxModule, BrowserModule, CommonModule`
+And this to services `NgBoxService`
 
-## Running unit tests
+## app.component.html
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Add this at the top `<ngbox></ngbox>` of your root html file.
 
-## Running end-to-end tests
+## ngBox
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Add `ng-box` to your image or tou your links. The required param is `src` or `href`
