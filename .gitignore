@@ -1,0 +1,7 @@
+typings
+app/**/*.js
+app/**/*.map
+node_modules
+jspm_packages
+bower_components
+.idea
