@@ -28,3 +28,7 @@ Add this at the top `<ngbox></ngbox>` of your root html file.
 ## ngBox
 
 Add `ng-box` to your image or to your links. The required param is `src` or `href`
+
+## Demo
+
+[Demo](http://ngmodules.eu/)
