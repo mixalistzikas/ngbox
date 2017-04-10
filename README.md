@@ -10,10 +10,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Add the following imports to your app.module.ts
 
-<p>import { NgBoxModule } from './ngbox/ngbox.module';</p>
-<p>import { NgBoxService } from './ngbox/ngbox.service';</p>
-<p>import { AppComponent } from './app.component';</p>
-<p>import { CommonModule } from '@angular/common';</p>
+`import { NgBoxModule } from './ngbox/ngbox.module';`
+
+`import { NgBoxService } from './ngbox/ngbox.service';`
+
+`import { AppComponent } from './app.component';`
+
+`import { CommonModule } from '@angular/common';`
 
 Add these to the import `NgBoxModule, BrowserModule, CommonModule`
 And this to services `NgBoxService`
