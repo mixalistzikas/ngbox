@@ -1,5 +1,5 @@
 ## install npm package
-`npm install ngbox -i`
+`npm install ngbox@latest -i`
 
 ## app.module.ts
 
