@@ -26,3 +26,22 @@ Add `ng-box` to your image or to your links. The required param is `src` or `hre
 ## Demo
 
 [Demo](http://ngmodules.eu/)
+
+
+## Attributes
+ `src` or `href` (The source file/video/link as a string)
+ 
+ `[src]` or `[href]` (The source file/video/link as a variable)
+ 
+ 
+ `group="myGroup"` (grouping as a string)
+ 
+ `[group]="group"` (grouping as a variable)
+ 
+ `[image]="true"` (if the path or the source has .jpg or .png it will open automatically, if not then you need to specify that this source is an image)
+ 
+ `[width]="800" [height]="800"`
+ 
+ `title="This is a title"`
+ 
+ `[cache]="true"` (if you want to preload an image)
